@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatServer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-content">
+
+        <div class="contacts">
+
+            <div class="contato">
+
+                REDE
+
+            </div>
+
+            <pre>{{CONTACTS}}</pre>
+
+        </div>
+
+        <div class="chat">
+            <div class="messages">
+                <pre>{{MESSAGES}}</pre>
+            </div>
+
+
+            <div class="message-form">
+
+                <form action="/send" method="POST">
+                    <div class="text-form">
+                        <textarea type="text" id="message" name="message-content" placeholder="Mensagem..." required></textarea>
+                        <button type="submit" class="send">Enviar</button>
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
