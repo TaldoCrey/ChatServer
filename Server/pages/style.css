@@ -140,13 +140,14 @@ button:hover {
 }
 
 .text-form {
+    width: 85vw;
     display: flex;
     align-items: center;
 }
 
 #message {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 23rem;
+    width: 100%;
     height: 3.8rem;
     padding: 0.5rem 1rem;
     font-size: 1rem;
@@ -166,4 +167,15 @@ button:hover {
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
     overflow: auto;
     overflow-wrap: break-word;
+}
+
+.message {
+    border-color: #2f2c57;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+    overflow: auto;
+    overflow-wrap: break-word;
+    scrollbar-width: none;
+    width: 80vh;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
